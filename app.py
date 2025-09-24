@@ -14,6 +14,10 @@ linguas = {
     "Francês": "fr",
     "Alemão": "de",
     "Italiano": "it"
+    "Chinês (Simplificado)": "zh-CN",
+    "Japonês": "ja",
+    "Russo": "ru",
+    "Koreano": "ko",
 }
 
 idiomas_escolhidos = st.multiselect("Selecione os idiomas de destino:", list(linguas.keys()), ["Inglês", "Espanhol"])
